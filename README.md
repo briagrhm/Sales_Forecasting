@@ -1,2 +1,3 @@
 # Sales_Forecasting
-## Creating a sales forecasting model using Prophet because of the feature that allow sasonality as well as holiday effects to be taken into account. Prediction is looking for the amount of sales each month. Data pool is very small and may need more data points to be more accurate. the yhat provided by Prophet provides lower and uppper ranges for the predictions so this can be helpful for month where sales vary. 
+## Creating a sales forecasting model using Prophet because of the features that allow sasonality as well as holiday effects to be taken into account. Prediction is looking for the amount of sales each month. Data pool is very small and may need more data points to be more accurate. the yhat provided by Prophet provides lower and uppper ranges for the predictions so this can be helpful for month where sales vary. 
+Helpful links:https://www.kaggle.com/code/prashant111/tutorial-time-series-forecasting-with-prophet
