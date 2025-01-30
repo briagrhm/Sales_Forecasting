@@ -15,3 +15,4 @@ ARIMA stands for AutoRegressive Integrated Moving Average. Three parameters are 
 - p incorporates past values and is associated with the auto-regressive aspect.
 - d effects the amount of differencing to apply to a time series, this is associated with the integrated part of the model.
 - q is associated with the moving average part of the model. 
+helpful links:https://www.statsmodels.org/stable/generated/statsmodels.tsa.seasonal.seasonal_decompose.html
