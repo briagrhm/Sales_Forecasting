@@ -10,3 +10,8 @@ In prophet the prediction method assign a future predicted value that is named y
 
 Helpful links:https://www.kaggle.com/code/prashant111/tutorial-time-series-forecasting-with-prophet
 https://facebook.github.io/prophet/docs/quick_start.html#python-api
+## ARIMA Overview 
+ARIMA stands for AutoRegressive Integrated Moving Average. Three parameters are used to help with this time series model: seasonality, trend, and noise. Labeled as p,d, and q. 
+- p incorporates past values and is associated with the auto-regressive aspect.
+- d effects the amount of differencing to apply to a time series, this is associated with the integrated part of the model.
+- q is associated with the moving average part of the model. 
