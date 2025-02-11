@@ -17,3 +17,5 @@ ARIMA stands for AutoRegressive Integrated Moving Average. Three parameters are 
 - q is associated with the moving average part of the model. 
 helpful links:https://www.statsmodels.org/stable/generated/statsmodels.tsa.seasonal.seasonal_decompose.html
 https://github.com/anindya-saha/Machine-Learning-with-Python/blob/master/time-series/ARIMA-Forecasting-Electric-Gas-Production.ipynb
+## Excel Helpful links 
+https://support.microsoft.com/en-us/office/split-text-into-different-columns-with-functions-49ec57f9-3d5a-44b2-82da-50dded6e4a68
