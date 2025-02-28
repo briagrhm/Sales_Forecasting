@@ -19,5 +19,16 @@ helpful links:https://www.statsmodels.org/stable/generated/statsmodels.tsa.seaso
 https://github.com/anindya-saha/Machine-Learning-with-Python/blob/master/time-series/ARIMA-Forecasting-Electric-Gas-Production.ipynb
 ## Excel Helpful links 
 https://support.microsoft.com/en-us/office/split-text-into-different-columns-with-functions-49ec57f9-3d5a-44b2-82da-50dded6e4a68
-## Hypertuning Link 
+## HyperTuning 
+1. n_changepoints is the number of change happen in the data. Prophet model detects them by its own. By default, its value is 25, which are uniformly placed in the first 80% of the time series. Changing n_changepoints can add value to the model.
+
+2. changepoint_prior_scale to indicate how flexible the changepoints are allowed to be. In other words, how much can the changepoints fit to the data. If you make it high it will be more flexible, but you can end up overfitting. By default, this parameter is set to 0.05
+
+3. seasonality_mode There are 2 types model seasonality mode. Additive & multiplicaticative. By default Prophet fits additive seasonalities, meaning the effect of the seasonality is added to the trend to get the forecast. Prophet can model multiplicative seasonality by setting seasonality_mode='multiplicative' in the model.
+
+4. holiday_prior_scale just like changepoint_prior_scale, holiday_prior_scale is used to smoothning the effect of holidays. By default its value is 10, which provides very little regularization. Reducing this parameter dampens holiday effects
+
+5. Seasonalities with fourier_order Prophet model, by default finds the seasonalities and adds the default parameters of the seasonality. We can modify the seasonalities effect by adding custom seasonalities as add_seasonality in the model with different fourier order.Yy default Prophet uses a Fourier order of 3 for weekly seasonality and 10 for yearly seasonality.
+
+### Hypertuning Link 
 https://www.kaggle.com/code/manovirat/timeseries-using-prophet-hyperparameter-tuning#HyperParameter-Tuning-using-ParameterGrid
