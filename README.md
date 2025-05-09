@@ -41,3 +41,4 @@ https://support.microsoft.com/en-us/office/split-text-into-different-columns-wit
 
 ### Hypertuning Link 
 https://www.kaggle.com/code/manovirat/timeseries-using-prophet-hyperparameter-tuning#HyperParameter-Tuning-using-ParameterGrid
+https://medium.com/@sandha.iitr/tuning-parameters-of-prophet-for-forecasting-an-easy-approach-in-python-8c9a6f9be4e8
